@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+
+<title>jQuery Flexdatalist Examples</title>
+
+<link href="jquery.flexdatalist.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+<h1>jQuery Flexdatalist Examples</h1>
+<h2>Basic Demo</h2>
+<p class="lead">Use local data from <code>datalist</code> tag.</p>
+<input type='text'
+       placeholder='Front-End Dev Skills'
+       class='flexdatalist form-control'
+       data-min-length='1'
+       list='skills'
+       name='skill'>
+       <datalist id="skills">
+    <option value="Node.js">Node.js</option>
+    <option value="Accessibility">Accessibility</option>
+    <option value="Wireframing">Wireframing</option>
+    <option value="HTML5">HTML5</option>
+    <option value="CSS3">CSS3</option>
+    <option value="DOM Manipulation">DOM Manipulation</option>
+    <option value="MVC">MVC</option>
+    <option value="MVVM">MVVM</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="jQuery">jQuery</option>
+    <option value="ReactJS">ReactJS</option>
+</datalist>
+
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="jquery.flexdatalist.js"></script>
+</body>
+</html>
